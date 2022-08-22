@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4da473d3-3745-436c-ad35-54dcbd82ee71" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HammeringCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HammeringCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestHammeringCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestHammeringCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HammeringCode">
+  <component name="RunManager" selected="JUnit.TestHammeringCode.test_encode_function">
     <configuration name="HammeringCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HammeringCode" />
       <module name="codewars.main" />
@@ -87,8 +85,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HammeringCode" />
         <item itemvalue="JUnit.TestHammeringCode.test_encode_function" />
+        <item itemvalue="Application.HammeringCode" />
         <item itemvalue="Gradle.TestHammeringCode.test_encode_function" />
       </list>
     </recent_temporary>

@@ -13,22 +13,22 @@ public class HammeringCode {
     }
     public static String encode(String text) {
         List<String> lst = Arrays.asList(text.split(""));
+        StringBuilder base = new StringBuilder();
         StringBuilder bits = new StringBuilder();
         for (int i = 0; i < lst.size(); i++) {
-            ByteBuffer buf = ByteBuffer.allocate(Integer.BYTES);
-            buf.put(lst.get(i).getBytes(StandardCharsets.US_ASCII));
-            buf.rewind();
-            int value = buf.getInt();
-            bits.append(value).append(value).append(value);
+            //int ascii = lst.get(i).charAt(0);
+            String ascii = Integer.toBinaryString(lst.get(i).charAt(0));
+            while(ascii.length()<8){
+                ascii = "0"+ ascii;
+            }
+            base.append(ascii);
         }
-        System.out.println(bits.toString());
-//        IntStream intStream;
-//        sb.collect(lst.stream().forEach(i ->i.getBytes(StandardCharsets.US_ASCII)));
-//        IntStream intStream = text.chars();
-//        intStream.mapToObj(i->text.chars().toString().getBytes(StandardCharsets.US_ASCII));
-
-        // IntStream = Arrays.asList(text.split("")).stream().tomapToObj(i -> l1.get(i) + l2.get(i)).collect(Collectors.toList()));
+        for (int i = 0; i < base.length(); i++) {
+            bits.append(base.charAt(i)).append(base.charAt(i)).append(base.charAt(i));
+        }
+        //System.out.println(bits.toString());
         return bits.toString();
+        //"000111111000111000000000000111111000000111000111000111111111111000000111"
     }
     public String decode(String bits) {
         String text = " ";
