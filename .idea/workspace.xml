@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4da473d3-3745-436c-ad35-54dcbd82ee71" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QueueCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpinWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Xbonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestQueueCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestSpinWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestXbonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HammeringCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HammeringCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestHammeringCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestHammeringCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,45 +48,54 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestHammeringCode.test_encode_function">
-    <configuration name="HammeringCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HammeringCode" />
-      <module name="codewars.main" />
+  <component name="RunManager" selected="JUnit.TestQueueCalc.testNormalCondition">
+    <configuration name="TestQueueCalc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codewars.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestQueueCalc" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHammeringCode.test_encode_function" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;TestHammeringCode.test_encode_function&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestHammeringCode.test_encode_function" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestQueueCalc.testNormalCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codewars.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestHammeringCode" />
-      <option name="METHOD_NAME" value="test_encode_function" />
+      <option name="MAIN_CLASS_NAME" value="TestQueueCalc" />
+      <option name="METHOD_NAME" value="testNormalCondition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpinWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codewars.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSpinWords" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpinWords.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codewars.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestSpinWords" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestXbonacci.basicFib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codewars.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestXbonacci" />
+      <option name="METHOD_NAME" value="basicFib" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,9 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestHammeringCode.test_encode_function" />
-        <item itemvalue="Application.HammeringCode" />
-        <item itemvalue="Gradle.TestHammeringCode.test_encode_function" />
+        <item itemvalue="JUnit.TestQueueCalc.testNormalCondition" />
+        <item itemvalue="JUnit.TestQueueCalc" />
+        <item itemvalue="JUnit.TestXbonacci.basicFib" />
+        <item itemvalue="JUnit.TestSpinWords.test" />
+        <item itemvalue="JUnit.TestSpinWords" />
       </list>
     </recent_temporary>
   </component>
