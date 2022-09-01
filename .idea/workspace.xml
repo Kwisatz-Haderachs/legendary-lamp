@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4da473d3-3745-436c-ad35-54dcbd82ee71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Rainfall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Scramble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestRainfall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestScramble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExpandNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestExpandNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestUserRank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Brackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Brackets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,22 +48,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TestRainfall.test2">
-    <configuration name="TestBrackets.isFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestUserRank.maxBoost">
+    <configuration name="TestExpandNum.testSomething" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codewars.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBrackets" />
-      <option name="METHOD_NAME" value="isFalse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBrackets.isTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codewars.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBrackets" />
-      <option name="METHOD_NAME" value="isTrue" />
+      <option name="MAIN_CLASS_NAME" value="TestExpandNum" />
+      <option name="METHOD_NAME" value="testSomething" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,11 +79,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestScramble.testOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUserRank.incrementRank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codewars.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestScramble" />
-      <option name="METHOD_NAME" value="testOne" />
+      <option name="MAIN_CLASS_NAME" value="TestUserRank" />
+      <option name="METHOD_NAME" value="incrementRank" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUserRank.maxBoost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codewars.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestUserRank" />
+      <option name="METHOD_NAME" value="maxBoost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestUserRank.maxBoost" />
+        <item itemvalue="JUnit.TestUserRank.incrementRank" />
+        <item itemvalue="JUnit.TestExpandNum.testSomething" />
         <item itemvalue="JUnit.TestRainfall.test2" />
         <item itemvalue="JUnit.TestRainfall.test1" />
-        <item itemvalue="JUnit.TestScramble.testOne" />
-        <item itemvalue="JUnit.TestBrackets.isFalse" />
-        <item itemvalue="JUnit.TestBrackets.isTrue" />
       </list>
     </recent_temporary>
   </component>
