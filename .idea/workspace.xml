@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4da473d3-3745-436c-ad35-54dcbd82ee71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Brackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Unique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WordScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestBrackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestUnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestWordScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Rainfall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Scramble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestRainfall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestScramble.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Brackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Brackets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TestBrackets">
-    <configuration name="TestBrackets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codewars.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBrackets" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestRainfall.test2">
     <configuration name="TestBrackets.isFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codewars.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -80,21 +70,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestQueueCalc.testNormalCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRainfall.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codewars.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestQueueCalc" />
-      <option name="METHOD_NAME" value="testNormalCondition" />
+      <option name="MAIN_CLASS_NAME" value="TestRainfall" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWordScore.sampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRainfall.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codewars.test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestWordScore" />
-      <option name="METHOD_NAME" value="sampleTests" />
+      <option name="MAIN_CLASS_NAME" value="TestRainfall" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestScramble.testOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codewars.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestScramble" />
+      <option name="METHOD_NAME" value="testOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestBrackets" />
+        <item itemvalue="JUnit.TestRainfall.test2" />
+        <item itemvalue="JUnit.TestRainfall.test1" />
+        <item itemvalue="JUnit.TestScramble.testOne" />
         <item itemvalue="JUnit.TestBrackets.isFalse" />
         <item itemvalue="JUnit.TestBrackets.isTrue" />
-        <item itemvalue="JUnit.TestWordScore.sampleTests" />
-        <item itemvalue="JUnit.TestQueueCalc.testNormalCondition" />
       </list>
     </recent_temporary>
   </component>
