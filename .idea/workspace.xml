@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4da473d3-3745-436c-ad35-54dcbd82ee71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExpandNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestExpandNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Excerism/Basic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codeWars/codeWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codeWars/codeWars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testCodeWars/TestExpandNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testCodeWars/TestExpandNum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +41,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/f2268397/Documents/Projects/codewars",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.TestUserRank.maxBoost">
     <configuration name="TestExpandNum.testSomething" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codewars.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestExpandNum" />
+      <option name="PACKAGE_NAME" value="testCodeWars" />
+      <option name="MAIN_CLASS_NAME" value="testCodeWars.TestExpandNum" />
       <option name="METHOD_NAME" value="testSomething" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -59,8 +61,8 @@
     </configuration>
     <configuration name="TestRainfall.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codewars.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRainfall" />
+      <option name="PACKAGE_NAME" value="testCodeWars" />
+      <option name="MAIN_CLASS_NAME" value="testCodeWars.TestRainfall" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -69,8 +71,8 @@
     </configuration>
     <configuration name="TestRainfall.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codewars.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRainfall" />
+      <option name="PACKAGE_NAME" value="testCodeWars" />
+      <option name="MAIN_CLASS_NAME" value="testCodeWars.TestRainfall" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">

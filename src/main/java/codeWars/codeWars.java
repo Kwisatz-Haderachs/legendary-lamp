@@ -265,7 +265,6 @@ class Rainfall {
     }
 
 
-    public class ExpandNum {
         public static String expandedForm(int num) {
             StringBuilder sb = new StringBuilder();
             String[] s = (num+"").split("");
@@ -289,7 +288,6 @@ class Rainfall {
                     .filter(x -> !x.equals("0"))
                     .collect(Collectors.joining(" + "));
         }
-    }
 
     public String encodeCW(String text) {
         StringBuilder ret = new StringBuilder();
